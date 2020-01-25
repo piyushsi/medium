@@ -1,0 +1,87 @@
+
+
+body{
+  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+.nav_bar {
+  width: 100%;
+  box-shadow:  0 10px 10px -10px #ccc;
+  height: 3.6rem;
+
+}
+.medium_logo{
+  margin:1.2rem 8rem;
+  position: absolute;
+  top:0
+}
+.nav_bar_btn,.edit_btn{
+ background-color: #FFFFFF;
+ border: 1px solid #757575;
+  border-radius: 5px;
+ padding:.4rem .8rem ;
+ font-size: .9rem;
+}
+
+.nav_bar_right {
+  display: inline-flex;
+  position: absolute;
+  right: 9rem;
+  align-items: center;
+  top:1.1rem;
+}
+
+.nav_bar_right_item{
+  margin-left: 1rem;
+  fill: #757575;
+  color: black;
+}
+
+.nav_bar_image{
+  height: 2.1rem;
+  width: 2.1rem;
+  border-radius: 50%;
+}
+
+.main {
+  margin: 5rem 23rem;
+  width: 50vw;
+}
+.main_inside{
+  width: 50vw;
+  border: 0.1px solid lightgray;
+  max-height: 22rem;
+  width: 40rem;
+  overflow: scroll;
+  padding:2rem 2rem;
+  z-index: 2;
+  box-shadow:  7px 7px 10px 0px #ccc;
+}
+.main_inside::-webkit-scrollbar{
+  display: none;
+}
+.profile_img {
+  position: absolute;
+  right: 0;
+  top:0;
+  margin-right: 24rem;
+  margin-top:8.2rem;
+  border-radius: 50%;
+  height: 8rem;
+}
+.int {
+  margin-top:12rem;
+}
+.main_in_2 {
+  position: absolute;
+  
+  margin-left: 3.5rem;
+  
+}
+.main_in_2 a{
+  color: #757575;
+  font-size: .9rem;
+}
+figure img{
+  max-width: 38rem;
+}
+
